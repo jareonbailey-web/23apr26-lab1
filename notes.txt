@@ -1,0 +1,22 @@
+## Basic CLI commands
+pwd: print working directory (shows full path of current directory being used)
+ls: list files and objects within the current directory
+mkdir [directory]: makes new folders or directories
+cd [directory]: allows you to change directories or return to a certain starting point
+
+## Order of operation: 
+1. Make new repo on github with original file name   
+2. Open Visual Studio Code (VSC). Create a new folder via the terminal or file explorer that matches the recently created repo name
+3. Create a series of files via the new file icon: an app.py file/notes.txt file/index.html file 
+
+## Basic git workflow
+1. git add -A to add all changed files since the inception of the repo
+2. git commit -m "first commit"
+3. git push to send all updates to the repo
+
+## Pull Request git workflow
+1. git checkout -b <https://github.com/jareonbailey-web/23apr26-lab1.git>
+2. Make a change
+3. Basic git workflow: add commit push 
+4. Create a pull request on GitHub
+5. Get the pr merged: main <- the_branch
